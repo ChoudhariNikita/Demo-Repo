@@ -21,7 +21,7 @@ def guess_number():
             
             # Check if the guess is correct
             if guess == secret_number:
-                print(f"Congratulations! You guessed the number {secret_number} correctly!")
+                print(f"Congratulations! You guessed the number {secret_number} correctly! Hurray :))")
                 print(f"It took you {attempts} attempts to guess the number.")
                 break
             elif guess < secret_number:
